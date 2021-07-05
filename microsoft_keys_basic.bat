@@ -3,7 +3,7 @@ echo Hostname >> c:\microsoft_keys.txt
 hostname >> c:\microsoft_keys.txt
 echo =============================================================================== >> c:\microsoft_keys.txt
 echo Serial Number Bios >> c:\microsoft_keys.txt
-WMIC BIOS GET SERIALNUMBER >> c:\microsoft_keys.txt
+wmic bios get serialnumber >> c:\microsoft_keys.txt
 echo =============================================================================== >> c:\microsoft_keys.txt
 echo Windows Serial Key >> c:\microsoft_keys.txt
 wmic path softwarelicensingservice get OA3xOriginalProductKey >> c:\microsoft_keys.txt
